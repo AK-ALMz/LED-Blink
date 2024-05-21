@@ -15,9 +15,9 @@ void loop() {
  
 //digitalWrite(onboardLED,LOW);
 digitalWrite(LEDpin,LOW);
-delay(1000);
+delay(200);
 //digitalWrite(onboardLED,HIGH);
 digitalWrite(LEDpin,HIGH);
-delay(1000);
+delay(200);
 Serial.println("Loop completed");
 }
